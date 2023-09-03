@@ -1,0 +1,39 @@
+@mixin nav-text {
+    color: #333333;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-variant: small-caps;
+}
+
+nav {
+    padding: 55px 140px 46px 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    ul {
+        display: flex;
+        align-items: center;
+    }
+    ul li {
+        margin-right: 48px;
+        list-style-type: none;
+    }
+    ul li a {
+        @include nav-text;
+    }
+    ul li:last-of-type {
+        margin-right: 0;
+    }
+    ul li:last-of-type a {
+        color: white;
+        padding: 10px 15px;
+        border-radius: 3px;
+        background-color: #647B64;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

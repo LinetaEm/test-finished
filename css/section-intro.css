@@ -1,0 +1,35 @@
+.container-intro {
+  padding-bottom: 140px;
+  background-image: url("../images/intro-bg-img1.svg"), url("../images/intro-bg-img2.svg");
+  background-size: 84px, 132px;
+  background-position: 20% 13%, -68px 95%;
+  background-repeat: no-repeat;
+}
+.container-intro .col:first-of-type {
+  display: flex;
+  align-items: center;
+}
+.container-intro .col:first-of-type h1 {
+  font-size: 48px;
+  line-height: 116%;
+  color: #333333;
+  margin-bottom: 24px;
+  max-width: 495px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-variant: small-caps;
+}
+.container-intro .col:first-of-type p {
+  font-size: 20px;
+  line-height: 132%;
+  color: #4F4F4F;
+  margin-bottom: 32px;
+  max-width: 479px;
+}
+.container-intro .col:last-of-type {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/*# sourceMappingURL=section-intro.css.map */
